@@ -7,6 +7,13 @@ body {
   float: relative;
 }
 
+h1 {
+  font-size: 3em;
+}
+h5 {
+  font-size: 2em;
+}
+
 #landing {
   width: 75%;
   height: auto;
@@ -22,13 +29,19 @@ body {
 }
 
 .pictures{
-  grid-row: auto, auto, auto;
-  width: 200px;
-  height: 200px;
+  grid-row: 30%, 30%, 30%;
+  width: 30%;
+  height: 30%;
   float: left;
   margin: 1%;
 }
 
-footer {
+/* #id {
   float: none;
+} */
+
+.footer {
+  clear: both;
+  float: left;
+  width: 50%;
 }
